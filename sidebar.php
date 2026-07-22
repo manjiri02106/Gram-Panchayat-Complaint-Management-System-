@@ -128,11 +128,6 @@ if (isset($_SESSION['user_id'])) {
                 <i class="far fa-user-circle"></i> Profile
             </a>
         </li>
-        <li>
-            <a href="#" class="sidebar-link sidebar-logout" onclick="openModal('logout-confirm-modal'); return false;">
-                <i class="fas fa-sign-out-alt"></i> Logout
-            </a>
-        </li>
     </ul>
 
     <!-- Beautiful Sidebar Village Backdrop SVG vector -->
@@ -163,5 +158,12 @@ if (isset($_SESSION['user_id'])) {
             <path d="M130,118 L130,100" stroke="#4e342e" stroke-width="2"/>
             <circle cx="130" cy="95" r="6" fill="#1b5e20"/>
         </svg>
+    </div>
+
+    <!-- Pinned Sidebar Footer Logout Button at the absolute end -->
+    <div class="sidebar-footer" style="padding: 15px 12px; border-top: 1px dashed rgba(255,255,255,0.15); z-index: 10; background-color: var(--primary-dark);">
+        <a href="#" class="sidebar-link sidebar-logout" onclick="openModal('logout-confirm-modal'); return false;">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
     </div>
 </aside>
