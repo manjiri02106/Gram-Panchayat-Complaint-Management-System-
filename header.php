@@ -44,8 +44,8 @@ if (empty($initials)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Gram Panchayat Complaint Management System</title>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css?v=1.0.2">
-    <link rel="stylesheet" href="assets/css/dashboard.css?v=1.0.2">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.0.6">
+    <link rel="stylesheet" href="assets/css/dashboard.css?v=1.0.6">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Chart.js CDN -->
@@ -134,14 +134,11 @@ if (empty($initials)) {
                             <a href="profile.php" class="profile-dropdown-link">
                                 <i class="far fa-user"></i> My Profile
                             </a>
-                            <a href="logout.php" class="profile-dropdown-link border-top" style="color: var(--error)">
+                            <a href="#" class="profile-dropdown-link border-top" style="color: var(--error)" onclick="openModal('logout-confirm-modal'); return false;">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
                         </div>
                     </div>
-
-                    <!-- Separate Logout Icon Button on Far Right -->
-                    <a href="logout.php" class="header-logout-btn" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
                 </div>
             </header>
             

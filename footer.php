@@ -54,6 +54,23 @@
         </main> <!-- End of main-content -->
     </div> <!-- End of dashboard-wrapper -->
 
+    <!-- Custom Logout Confirmation Modal -->
+    <div class="modal-overlay" id="logout-confirm-modal">
+        <div class="modal-container" style="max-width: 380px; padding: 25px; text-align: center; border-radius: 12px;">
+            <div style="margin-bottom: 15px;">
+                <div style="width: 60px; height: 60px; border-radius: 50%; background-color: rgba(245, 124, 0, 0.1); display: inline-flex; align-items: center; justify-content: center; margin: 0 auto;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 1.8rem; color: var(--secondary);"></i>
+                </div>
+            </div>
+            <h3 style="font-size: 1.15rem; font-weight:800; color: var(--primary-dark); margin-bottom: 8px;">Are you sure?</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Do you really want to log out of the Gram Panchayat portal?</p>
+            <div style="display: flex; gap: 15px; justify-content: center;">
+                <button type="button" class="btn btn-outline btn-sm" onclick="closeModal('logout-confirm-modal')" style="width: 100px; height: 36px; font-weight: 600;">No</button>
+                <a href="logout.php" class="btn btn-secondary btn-sm" style="width: 100px; height: 36px; background-color: var(--secondary); font-weight: 600;">Yes</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Core Global Script -->
     <script src="assets/js/main.js"></script>
 </body>

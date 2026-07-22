@@ -129,7 +129,7 @@ if (isset($_SESSION['user_id'])) {
             </a>
         </li>
         <li>
-            <a href="logout.php" class="sidebar-link">
+            <a href="#" class="sidebar-link sidebar-logout" onclick="openModal('logout-confirm-modal'); return false;">
                 <i class="fas fa-sign-out-alt"></i> Logout
             </a>
         </li>

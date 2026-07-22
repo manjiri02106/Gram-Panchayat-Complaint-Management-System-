@@ -63,7 +63,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gram Panchayat Complaint Management System (GPCMS)</title>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.0.6">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -113,6 +113,7 @@ try {
         </div>
     </nav>
 
+    <main style="flex-grow: 1;">
     <!-- Hero Banner with 2 Column Grid (Slogans Left, Track Card Right) -->
     <section class="hero">
         <div class="container">
@@ -351,6 +352,7 @@ try {
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Public Footer matching the 5 Column Layout mockup -->
     <footer class="footer" id="footer-contact-section">
