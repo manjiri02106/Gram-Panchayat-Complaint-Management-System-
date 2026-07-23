@@ -1,7 +1,6 @@
 <?php
 // admin_reports.php
 // Gram Panchayat Complaint Management System - Reports Panel
-
 require_once 'includes/auth.php';
 require_once 'includes/db.php';
 
